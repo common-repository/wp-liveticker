@@ -1,0 +1,335 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Thomas Herzog <thomas@piraten-sachsen.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: features/class-WP_Liveticker_Init.php:144
+#: wp-liveticker.php:0
+#@ wp-liveticker
+msgid "WP Liveticker"
+msgstr "WP Liveticker"
+
+#: features/class-WP_Liveticker_Init.php:107
+#@ wp-liveticker
+msgid "Initiate Ticker"
+msgstr "Ticker anlegen"
+
+#: features/class-WP_Liveticker_Init.php:78
+#: features/class-WP_Liveticker_Init.php:114
+#@ wp-liveticker
+msgid "Ticker"
+msgstr "Ticker"
+
+#: features/class-WP_Liveticker_Init.php:108
+#@ wp-liveticker
+msgid "All Ticker"
+msgstr "Alle Ticker"
+
+#: features/class-WP_Liveticker_Init.php:109
+#@ wp-liveticker
+msgid "Edit Ticker"
+msgstr "Ticker editieren"
+
+#: features/class-WP_Liveticker_Init.php:113
+#: features/class-WP_Liveticker_Init.php:115
+#@ wp-liveticker
+msgid "Add Ticker"
+msgstr "Ticker hinzufügen"
+
+#: features/class-WP_Liveticker_Init.php:110
+#@ wp-liveticker
+msgid "Parent Ticker"
+msgstr "Übergeordneter Ticker"
+
+#: features/class-WP_Liveticker_Init.php:111
+#@ wp-liveticker
+msgid "Update Ticker"
+msgstr "Ticker aktualisieren"
+
+#: features/class-WP_Liveticker_Init.php:112
+#@ wp-liveticker
+msgid "Search Ticker"
+msgstr "Durchsuche Ticker"
+
+#: features/class-WP_Liveticker_Init.php:116
+#@ wp-liveticker
+msgid "Popular Ticker"
+msgstr "Populäre Ticker"
+
+#: features/class-WP_Liveticker_Init.php:117
+#@ wp-liveticker
+msgid "Parent Ticker:"
+msgstr "Übergeordneter Ticker"
+
+#: features/class-WP_Liveticker_Options_Page.php:98
+#: features/class-WP_Liveticker_Options_Page.php:208
+#@ wp-liveticker
+msgid "General Settings"
+msgstr "Einstellungen"
+
+#: features/class-WP_Liveticker_Options_Page.php:130
+#@ wp-liveticker
+msgid "Powered by"
+msgstr "Powered by"
+
+#: features/class-WP_Liveticker_Options_Page.php:133
+#@ wp-liveticker
+msgid "This plugin is powered by <a href=\"http://inpsyde.com\">Inpsyde.com</a> - Your expert for WordPress, BuddyPress and bbPress."
+msgstr "Dieses Plugin wurde realisiert mit Unterstützung von <a href=\"http://inpsyde.com\">Inpsyde.com</a> - Den Experten für WordPress, BuddyPress und bbPress."
+
+#: features/class-WP_Liveticker_Options_Page.php:138
+#@ wp-liveticker
+msgid "Usage & Help"
+msgstr "Nutzung & Hilfe"
+
+#: features/class-WP_Liveticker_Options_Page.php:140
+#@ wp-liveticker
+msgid "The usage of the ticker is really simple. It comes with a so called <a href=\"http://codex.wordpress.org/Shortcode\">shortcode</a> namend <em>ticker</em>. So here are the steps to create a ticker:"
+msgstr "Die Benutzung von WP Liveticker ist sehr einfach. Es benutzt die sogenannten <a href=\"http://codex.wordpress.org/Shortcode\">Shortcodes</a>.. Hier heißt er <em>Ticker</em>. Im Folgenden die Schritte, um einen WP Liveticker zu erstellen."
+
+#: features/class-WP_Liveticker_Options_Page.php:142
+#@ wp-liveticker
+msgid "Initiate a <em>Ticker</em> by using the same called menu entry."
+msgstr "Lege im Menüpunkt <em>Ticker anlegen</em> einen Ticker an."
+
+#: features/class-WP_Liveticker_Options_Page.php:143
+#@ wp-liveticker
+msgid "Now create an initial Ticker Post and allocate it to the initiated Ticker. It works like the well known categories in the posts."
+msgstr "Lege einen Ticker Post an und weise ihn dem angelegten Ticker zu. Das funktioniert genau so wie die Kategorien."
+
+#: features/class-WP_Liveticker_Options_Page.php:144
+#@ wp-liveticker
+msgid "Publish the Ticker Post."
+msgstr "Publiziere den Ticker Post."
+
+#: features/class-WP_Liveticker_Options_Page.php:145
+#@ wp-liveticker
+msgid "Go to a post or a page where you want to place the Ticker. Place the shortcode <em>[ticker slug]</em> in the text."
+msgstr "Gehe zum Artikel oder zur Seite, wo du den Ticker platzieren willst. Füge den Shortcode <em>[ticker slug]</em> irgendwo im Text hinzu."
+
+#: features/class-WP_Liveticker_Options_Page.php:146
+#@ wp-liveticker
+msgid "Replace the word <em>slug</em> with the actual slug from the initiated Ticker you created in step one."
+msgstr "Ersetze das Wort <em>slug</em> mit der <em>Titelform</em> des angelegten Tickers aus Schritt eins."
+
+#: features/class-WP_Liveticker_Options_Page.php:147
+#@ wp-liveticker
+msgid "Save the post."
+msgstr "Speicher den Artikel."
+
+#: features/class-WP_Liveticker_Options_Page.php:148
+#@ wp-liveticker
+msgid "Ready! Now you can create Ticker Posts just by clicking <em>Add New</em> in the <em>Ticker Post</em>-Section and your visitors can see your ... erm ... tickles!"
+msgstr "Fertig! Du kannst nun weitere Ticker Posts anlegen, indem du <em>Erstellen</em> in der <em>Ticker Post</em>-Sektion benutzt. Nun können deine Besucher deine ... erm ... Tickles sehen."
+
+#: features/class-WP_Liveticker_Options_Page.php:150
+#@ wp-liveticker
+msgid "With WP-Liveticker you can initiate unlimited Ticker on your Posts - not in a single post, but in different posts."
+msgstr "Mit dem WP Liveticker kannst du so viele Ticker wie du willst anlegen. Derzeit aber leider nicht in einem einzigen Post."
+
+#: features/class-WP_Liveticker_Options_Page.php:151
+#@ wp-liveticker
+msgid "If you need more help, contact me:"
+msgstr "Wenn du mehr Hilfe brauchst, kontaktiere mich:"
+
+#: features/class-WP_Liveticker_Options_Page.php:156
+#: features/class-WP_Liveticker_Options_Page.php:159
+#@ wp-liveticker
+msgid "Restore Defaults"
+msgstr "Standards wiederherstellen"
+
+#: features/class-WP_Liveticker_Options_Page.php:158
+#@ wp-liveticker
+msgid "If you made some mistakes in styling and you donot know a way back then you are able to restore the default settings. Your settings will be lost."
+msgstr "Wenn du beim Styling ein paar Fehler gemacht hast und keinen Weg mehr zurück weißt, dann kannst du hier die mitgelieferten Standardeinstellungen wiederherstellen. Deine Einstellungen werden dabei komplett überschrieben."
+
+#: features/class-WP_Liveticker_Options_Page.php:210
+#@ wp-liveticker
+msgid "In this version, we do not have very detailled settings to change. In future we will have a high configurable live-ticker-plugin. For now, we just have an interval for the refresh and some CSS-Stuff."
+msgstr "In dieser Version vom WP Liveticker haben wir nicht so viele Einstellungsmöglichkeiten implementiert. In Zukunft wollen wir die ganze Sache ein bisschen erweitern und einfacher machen. Bisher gibt es aber nur die Einstellung für das Aktualisierungsinterval und ein paar CSS-Sachen."
+
+#: features/class-WP_Liveticker_Options_Page.php:216
+#@ wp-liveticker
+msgid "Refresh-Interval"
+msgstr "Aktualisierungsinterval"
+
+#: features/class-WP_Liveticker_Options_Page.php:220
+#@ wp-liveticker
+msgid "The Ticker-Box refreshs automatically. For that, we need an interval setted here. The value have to be set in milliseconds (Wished seconds x 100)."
+msgstr "Die Ticker-Box aktualisiert sich automatisch. Dafür brauchen wir ein Interval. Der Wert muss in Millisekunden angegeben werden (gewünschte Sekunden x 100)"
+
+#: features/class-WP_Liveticker_Options_Page.php:249
+#@ wp-liveticker
+msgid "Template Settings"
+msgstr "Template Einstellungen"
+
+#: features/class-WP_Liveticker_Options_Page.php:251
+#@ wp-liveticker
+msgid "You are able to manipulate the CSS of the Ticker-Container and its content. Just play around, you still can restore the default settings. Remember that these style-settings only affects the Ticker-Style."
+msgstr "Du kannst hier das komplette CSS des Tickers manipulieren. Spiel einfach ein bisschen herum, denn du kannst immer noch die Standardeinstellungen wiederherstellen. Die Änderungen hier haben nur einen Effekt auf den Ticker."
+
+#: features/class-WP_Liveticker_Options_Page.php:257
+#@ wp-liveticker
+msgid "Ticker-CSS"
+msgstr "Ticker-CSS"
+
+#: features/class-WP_Liveticker_Options_Page.php:265
+#@ wp-liveticker
+msgid "Headline-CSS"
+msgstr "Überschrift"
+
+#: features/class-WP_Liveticker_Options_Page.php:273
+#@ wp-liveticker
+msgid "Space-Line-CSS"
+msgstr "Trennlinie"
+
+#: features/class-WP_Liveticker_Options_Page.php:281
+#@ wp-liveticker
+msgid "P-Tag-CSS"
+msgstr "Das P-Tag"
+
+#: features/class-WP_Liveticker_Options_Page.php:289
+#@ wp-liveticker
+msgid "Image-CSS"
+msgstr "Bild-CSS"
+
+#: features/class-WP_Liveticker_Options_Page.php:225
+#: features/class-WP_Liveticker_Options_Page.php:297
+#@ wp-liveticker
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: features/class-WP_Liveticker_Cache_System.php:88
+#@ wp-liveticker
+msgid "Please choose a ticker"
+msgstr "Bitte wähle einen Ticker aus!"
+
+#: features/class-WP_Liveticker_Init.php:145
+#: features/class-WP_Liveticker_Init.php:152
+#@ wp-liveticker
+msgid "Add Tick"
+msgstr "Tick hinzufügen"
+
+#: features/class-WP_Liveticker_Init.php:146
+#@ wp-liveticker
+msgid "New Tick"
+msgstr "Neuer Tick"
+
+#: features/class-WP_Liveticker_Init.php:147
+#@ wp-liveticker
+msgid "Ticks"
+msgstr "Ticks"
+
+#: features/class-WP_Liveticker_Init.php:148
+#@ wp-liveticker
+msgid "Edit Tick"
+msgstr "Tick editieren"
+
+#: features/class-WP_Liveticker_Init.php:149
+#@ wp-liveticker
+msgid "View Tick"
+msgstr "Tick ansehen"
+
+#: features/class-WP_Liveticker_Init.php:150
+#: features/class-WP_Liveticker_Init.php:156
+#@ wp-liveticker
+msgid "There are no Ticks matching the search criterias"
+msgstr "Zu dieser Suchanfrage wurden keine Ticks gefunden"
+
+#: features/class-WP_Liveticker_Init.php:151
+#@ wp-liveticker
+msgid "Liveticker"
+msgstr "Liveticker"
+
+#: features/class-WP_Liveticker_Init.php:153
+#@ wp-liveticker
+msgid "Search Ticks"
+msgstr "Ticks durchsuchen"
+
+#: features/class-WP_Liveticker_Init.php:154
+#@ wp-liveticker
+msgid "Tick"
+msgstr "Tick"
+
+#: features/class-WP_Liveticker_Init.php:155
+#@ wp-liveticker
+msgid "Parent Tick"
+msgstr "Übergeordneter Tick"
+
+#: features/class-WP_Liveticker_Options_Page.php:68
+#@ wp-liveticker
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: features/class-WP_Liveticker_Options_Page.php:83
+#@ wp-liveticker
+msgid "Settings has been saved"
+msgstr "Einstellungen wurden gespeichert"
+
+#: features/class-WP_Liveticker_Options_Page.php:88
+#@ wp-liveticker
+msgid "Template has been saved"
+msgstr "Template wurde gespeichert"
+
+#: features/class-WP_Liveticker_Options_Page.php:93
+#@ wp-liveticker
+msgid "Defaults has been restored"
+msgstr "Die Standardeinstellungen wurden wieder hergestellt"
+
+#: features/class-WP_Liveticker_Options_Page.php:99
+#@ wp-liveticker
+msgid "Template"
+msgstr "Template"
+
+#: features/class-WP_Liveticker_Options_Page.php:114
+#@ wp-liveticker
+msgid "Liveticker Settings "
+msgstr "Liveticker Einstellungen "
+
+#. translators: plugin header field 'Description'
+#: wp-liveticker.php:0
+#@ wp-liveticker
+msgid "Ajaxified Live-Ticker which can be placed in an arcticle. Uses Custom Post Types, Custom Taxonomies and the shortcode [ticker]. You can also use own RSS-Feeds for each ticker you created."
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: wp-liveticker.php:0
+#@ wp-liveticker
+msgid "DasLlama"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: wp-liveticker.php:0
+#@ wp-liveticker
+msgid "http://dasllama.github.com"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: wp-liveticker.php:0
+#@ wp-liveticker
+msgid "0.5pre"
+msgstr ""
+
+#: wp-liveticker.php:148
+#, php-format
+#@ wp-liveticker
+msgid "Please make sure, that <strong>%s</strong> is writeable!"
+msgstr "Bitte stell sicher, dass <strong>%s</strong> beschreibbar ist!"
+
